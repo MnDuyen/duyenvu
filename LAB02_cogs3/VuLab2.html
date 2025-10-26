@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule for Duyen – Dhvu – Fall, 2025</title>
+    <link rel = "stylesheet" href="styleLab2.css">
+</head>
+<body>
+    <dl>
+        <dt>How to define a table?</dt>
+        <dd>Each table cell is defined by a &lt;td&gt; and a &lt;/td&gt; tag. td stands for table data. Everything between &lt;td&gt; and &lt;/td&gt; is the content of a table cell.</dd>
+
+        <dt>&lt;tr&gt; tag</dt>
+        <dd>The &lt;tr&gt; tag defines a row in an HTML table. A &lt;tr&gt; element contains one or more &lt;th&gt; or &lt;td&gt; elements.</dd>
+
+        <dt>&lt;th&gt; tag</dt>
+        <dd>The &lt;th&gt; tag defines a header cell in an HTML table. It contains header information. The text in &lt;th&gt; elements are bold and centered by default.</dd>
+
+        <dt>&lt;td&gt; tag</dt>
+        <dd>The &lt;td&gt; tag defines a standard data cell in an HTML table. It contains data. The text in &lt;td&gt; elements are regular and left-aligned by default.</dd>
+
+        <dt>&lt;thead&gt; tag</dt>
+        <dd>The &lt;thead&gt; tag is used to group header content in an HTML table. The &lt;thead&gt; element is used in conjunction with the &lt;tbody&gt; and &lt;tfoot&gt; elements to specify each part of a table (header, body, footer). It must have one or more &lt;tr&gt; tags inside.</dd>
+
+        <dt>&lt;tfoot&gt; tag</dt>
+        <dd>The &lt;tfoot&gt; tag is used to group footer content in an HTML table. The &lt;tfoot&gt; element is used in conjunction with the &lt;thead&gt; and &lt;tbody&gt; elements to specify each part of a table (footer, header, body). It must have one or more &lt;tr&gt; tags inside.</dd>
+
+        <dt>&lt;caption&gt; tag</dt>
+        <dd>The &lt;caption&gt; tag defines a table caption. The &lt;caption&gt; tag must be inserted immediately after the &lt;table&gt; tag.</dd>
+
+        <dt>What is the difference between colspan and rowspan?</dt>
+        <dd>colspan merges cells horizontally across columns, while rowspan merges cells vertically across rows. Both are HTML table attributes used to make a single cell span the space of multiple cells for a more organized layout. </dd>
+
+        <dt>What is the difference between cells spacing and padding?</dt>
+        <dd>Cell spacing is the space between adjacent cells, while cell padding is the space inside a single cell, between its content and its border.</dd>
+
+        <dt>How do you define table borders using CSS?</dt>
+        <dd>The CSS border property is used to specify the width, style, and color of table borders. It could be defined by table, and curly brackets, and border property inside. The border property is a shorthand property for:
+            <ul>
+                <li>border-width - sets the width of the border</li>
+                <li>border-style - sets the style of the border (required)</li>
+                <li>border-color - sets the color of the border</li>
+            </ul>
+        </dd>
+
+        <dt>How do you control border widths using CSS?</dt>
+        <dd>Border width in CSS is controlled using the border-width property or its individual longhand properties: border-top-width, border-right-width, border-bottom-width, and border-left-width.</dd>
+    </dl>
+    <table border="1">
+        <caption style="text-align: center;">Duyen's Schedule</caption>
+        <tr>
+            <th class="time">Time</th>  
+            <th>Monday</th> 
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <td class="time">8am</td>
+            <td rowspan="3">MATH 10A(LE)
+                <br>
+                <a href="https://mathweb.ucsd.edu/~jeggers/Math10A/index.html">Click this to visit the class website!</a>
+                <img src="images/math1.png">
+            </td>
+            <td></td>
+            <td rowspan="3">MATH 10A(LE)
+                <br>
+                <a href="https://mathweb.ucsd.edu/~jeggers/Math10A/index.html">Click this to visit the class website!</a>
+                <img src="images/math2.png">
+            </td>
+            <td></td>
+            <td rowspan="3">MATH 10A(LE)
+                <br>
+                <a href="https://mathweb.ucsd.edu/~jeggers/Math10A/index.html">Click this to visit the class website!</a>
+                <img src="images/math3.jpeg">
+            </td>
+            <td rowspan="25">Family time
+                <br>
+                <img src="images/family_time03.png">
+            </td>
+            <td rowspan="18">Family time
+                <br>
+                <img src="images/family_time02.jpeg">
+            </td>
+        </tr>
+        <tr>
+            <td class="time">8:30am</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">9am</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">9:30am</td>
+            <td rowspan="3">AWP 3(SE)
+                <br>
+                <a href="https://canvas.ucsd.edu/courses/70299">Click this to visit the class website!</a>
+                <img src="images/awp1.jpeg"> 
+            </td>
+            <td></td>
+            <td rowspan="3">AWP 3(SE)
+                <br>
+                <a href="https://canvas.ucsd.edu/courses/70299">Click this to visit the class website</a>
+                <img src="images/awp2.jpeg"> 
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">10am</td>
+            <td></td>
+            <td></td>
+            <td rowspan="3">CSE 6R'S Study Group
+                <br>
+                <a href="https://cse8a.site/">Click this to visit the class website</a>
+                <img src="images/studygrp.jpeg"> 
+            </td>
+        </tr>
+        <tr>
+            <td class="time">10:30am</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">11am</td>
+            <td></td>
+            <td rowspan="4">CSE 89(SE)
+                <br>
+                <a href="https://csepace.ucsd.edu/#topics">Click this to visit the class website</a>
+                <img src="images/pace.jpg"> 
+            </td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td class="time">11:30am</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">12pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="3">COGS 3(LA)
+                <br>
+                <a href="https://canvas.ucsd.edu/courses/68596">Click this to visit the class website</a>
+                <img src="images/cogs_3.jpeg"> 
+            </td>
+        </tr>
+        <tr>
+            <td class="time">12:30pm</td>
+            <td></td>
+            <td rowspan="4">COGS 3(LE)
+                <br>
+                <a href="https://canvas.ucsd.edu/courses/68596">Click this to visit the class website</a>
+                <img src="images/cogs_1.jpg"> 
+            </td>
+            <td rowspan="4">COGS 3(LE)
+                <br>
+                <a href="https://canvas.ucsd.edu/courses/68596">Click this to visit the class website</a>
+                <img src="images/cogs_2.jpeg"> 
+            </td>
+        </tr>
+        <tr>
+            <td class="time">1pm</td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td class="time">1:30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">2pm</td>
+            <td></td>
+            <td rowspan="3">CSE 6R(LA)
+                <br>
+                <a href="https://cse8a.site/">Click this to visit the class website</a>
+                <img src="images/cse6r_1.png"> 
+            </td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td class="time">2:30pm</td>
+            <td></td>
+            <td rowspan="3">CSE 6R(LE)
+                <br>
+                <a href="https://cse8a.site/">Click this to visit the class website</a>
+                <img src="images/cse6r_2.jpeg"> 
+            </td>
+            <td rowspan="3">CSE 6R(LE)
+                <br>
+                <a href="https://cse8a.site/">Click this to visit the class website</a>
+                <img src="images/cse6r_3.jpeg"> 
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">3pm</td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td class="time">3:30pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">4pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">4:30pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="5">Get home
+                <br>
+                <img src="images/amtrak.jpeg"> 
+            </td>
+        </tr>
+        <tr>
+            <td class="time">5pm</td>
+            <td rowspan="3">MATH 10A(DI)
+                <br>
+                <a href="https://mathweb.ucsd.edu/~jeggers/Math10A/index.html">Click this to visit the class website!</a>
+                <img src="images/math_dis.jpeg"> 
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="5">Get back to school
+                <br>
+                <img src="images/amtrak.jpeg"> 
+            </td>
+        </tr>
+        <tr>
+            <td class="time">5:30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">6pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">6:30pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time">7pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="2">Family time
+                <br>
+                <img src="images/family_time01.jpeg">
+            </td>        
+        </tr>
+        <tr>
+            <td class="time">NIGHT</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>   
+</body>
+</html>
